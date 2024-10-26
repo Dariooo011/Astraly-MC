@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Minecraft Astraly MC</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a Astraly MC</h1>
+        
+        <div class="nickname-input">
+            <label for="nickname">Introduce tu nick de Minecraft:</label>
+            <input type="text" id="nickname" placeholder="Tu nick aquí">
+            <button onclick="saveNickname()">Guardar Nick</button>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="showIP()">IP DEL SERVIDOR</button>
+            <button onclick="window.location.href='https://discord.gg/NnBQ2JXu'">ENTRAR A DISCORD</button>
+            <button onclick="showInfo()">INFORMACIÓN DEL SERVIDOR</button>
+        </div>
+        
+        <div id="output" class="output"></div>
+        
+        <footer>
+            <p>Cualquier duda abran ticket en nuestro servidor de Discord</p>
+            <p>Creado por el equipo de Real-Minty y Astraly MC</p>
+        </footer>
+    </div>
+</body>
+</html>
