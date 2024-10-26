@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #0c1833, #003046);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #00557c;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 128, 128, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.nickname-input {
+    margin-bottom: 20px;
+}
+
+.nickname-input label {
+    font-weight: bold;
+    color: #b0e0e6;
+}
+
+#nickname {
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #003046;
+    border-radius: 5px;
+}
+
+.buttons button {
+    background: linear-gradient(135deg, #1db2d3, #007891);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: linear-gradient(135deg, #1ca4c2, #005d74);
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #a0d6ff;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #b0e0e6;
+}
